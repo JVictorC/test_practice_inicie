@@ -1,16 +1,64 @@
 # pokedex_incie
 
-A new Flutter project.
+## Como Rodar o Projeto
 
-## Getting Started
+### `1- git clone git@github.com:JVictorC/test_practice_inicie.git`
+### `2- cd pokedex_incie`
+### `3- Abra algum emulador IOS ou ANDROOID`
+### `3- sh run_app.sh`
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Documentação:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Estrutura
+```
+  .
+└── src
+    ├── core
+    │   ├── adapters
+    │   │   ├── adapters.dart
+    │   │   ├── http
+    │   │   ├── injector
+    │   │   └── shared_preferences
+    │   ├── constantes
+    │   │   └── constants.dart
+    │   ├── core.dart
+    │   ├── dependencies
+    │   │   ├── core_dependencies.dart
+    │   │   ├── cubit_dependencies.dart
+    │   │   ├── dependencies.dart
+    │   │   ├── repositories_dependencies.dart
+    │   │   └── usecases_dependencies.dart
+    │   ├── result
+    │   │   └── result.dart
+    │   ├── routes
+    │   │   └── routes.dart
+    │   ├── shared
+    │   │   ├── shared.dart
+    │   │   ├── theme
+    │   │   └── widgets
+    │   └── widget_testable
+    │       └── widget_testable_builder.dart
+    ├── main.dart
+    └── modules
+        ├── details_pokemon
+        │   ├── details_pokemon.dart
+        │   └── presentation
+        ├── home
+        │   ├── data
+        │   ├── domain
+        │   ├── home.dart
+        │   └── presentation
+        └── onboarding
+            ├── onboarding.dart
+            └── presentation
+            
+  ```
+ 
+
+
+
+
+
+
